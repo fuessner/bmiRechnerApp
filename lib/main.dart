@@ -17,6 +17,7 @@ import 'constants.dart';
 // in die PUBSPEC.YAML. Gehen hier ganz nach unter. Dort steht #fonts
 
 void main() {
+  // Änderung:
   // Hier wird festgelegt, das die APP nur Horizontal sein darf.
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).
